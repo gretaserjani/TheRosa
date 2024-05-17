@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Affordable and professional web design">
+     <meta name="keyboard" content="web design,affordable web design,proffesional">
+     <meta name="author" content="Greta Serjani">
+     <title>Rreth nesh</title>
+     <link href="web.css" rel="stylesheet" type="text/css">
+     <link href="home.html" >
+     <script src="https://kit.fontawesome.com/df812605f2.js" crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" 
+rel="stylesheet">
+</head>
+<body>
+     <header>
+       <div class="container">
+        <nav class="nav">
+          <a href="web.html" class="logo"><img src="imazhe/logo.jpg" ></a>
+  
+          <ul class="nav-list">
+           <li class="nav-item">
+             <a href="web.html" class="nav-link " >Home</a>
+           </li>
+           <li class="nav-item">
+             <a href="Rreth nesh.html" class="nav-link" >Rreth nesh</a>
+           </li>
+           <li class="nav-item">
+             
+             <a href="menu.html" class="nav-link" >Menu</a>
+           </li>
+           <li class="nav-item">
+             <a href="Contact.html" class="nav-link" >Contact</a>
+           </li>
+          </ul>
+          </nav>
+       </div>
+     </header>
+                  <!--header ends-->
+  
+  <section id="hero" class="hero">
+   <div class="container">
+
+    <h2 class="sub-headline">
+     <span class="first-letter"> W</span>elcome
+    </h2>
+
+    <h1 class="headline">The Rosa</h1>
+
+    <div class="headline-description">
+       <div class="asterisk"><i class="fas fa-asterisk"></i>
+       </div>
+       <div class="single-animation">
+        <h5>Hapet së shpejti</h5>
+       </div>
+    </div>
+    </section>
+    
+<footer>
+ <div class="container">
+  <div class="back-to-top">
+   <a href="#hero"><i class="fas fa-chevron-up"></i></a>  <!--ikona (shigjeta)-->
+   </div>
+    <div class="footer-content">
+     <div id="footer-content-about-page">
+      <h4> The Rosa </h4>
+     <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+     <p>Vizitoni ambjentet tona tep&euml;r komode dhe me nj&euml; staf t&euml; p&euml;rkushtuar p&euml;r k&euml;rkesat dhe nevojat tuaja.</p>
+  </div> <br> <br> <br> <br> <br>
+    <div class="footer-content-divider animate-bottom">
+     <div id="social-media">
+      <h4>Na ndiqni:</h4>
+       <ul class="social-icons">
+        <li>
+          <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li>
+          <a href="https://www.tripadvisor.com/"><i class="fab fa-tripadvisor"></i></a>
+        </li>
+       </ul>
+      </div>
+       <div class="newsletter-container">
+        <h4>Risit&euml; m&euml; t&euml; fundit:</h4>
+        <p> &#8595;</p>
+       <br></br>
+        <form class="newsletter-form" onsubmit="return false">
+         <input type="text" class="newsletter-input" placeholder="Adresa juaj email..." id="email">
+         <button class="newsletter-btn">
+          <i class="fas fa-envelope" onclick="Send()"></i>
+         </button>
+         </form>
+       </div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br> 
+    <table style="margin-top:59px;">
+      <tr>
+        <th>Qyteti</th>
+        <th>Kontakti</th>
+        <th>Adresa</th>
+      </tr>
+      <tr>
+        <td>Tiran&euml;</td>
+        <td>069.......</td>
+        <td>Rruga " "</td>
+      </tr>
+      <tr>
+        <td>Durr&euml;s</td>
+        <td>068.......</td>
+        <td>Rruga " "</td>
+      </tr>
+      <tr>
+        <td>Fier</td>
+        <td>069.......</td>
+        <td>Rruga " "</td>
+      </tr>
+      <tr>
+        <td>Vlor&euml;</td>
+        <td>069.......</td>
+        <td>Rruga " "</td>
+      </tr>
+      <tr>
+        <td>Shkod&euml;r</td>
+        <td>068.......</td>
+        <td>Rruga " "</td>
+      </tr>
+      <tr>
+        <td>Sarand&euml;</td>
+        <td>069.......</td>
+        <td>Rruga " "</td>
+      </tr>
+    </table>
+  </div>
+ </div>
+</footer>
+<!--end of the footer-->
+<script src="web.js"></script>
+
+</body>
+<script>
+  function Send()
+             {
+               debugger
+               var email=document.getElementById("email");
+               if(email.value != ""){
+                alert("Emaili u dergua me sukses");
+               } 
+               else{
+                 alert("Shkruani adresen e email-it");
+               }
+             }
+</script>
+</html>
